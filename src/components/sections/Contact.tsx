@@ -82,31 +82,39 @@ function Contact() {
 
           {/* Contact Form */}
 
-          <form className="space-y-6">
+          <form
+  action="https://formspree.io/f/xqerlwln"
+  method="POST"
+  className="space-y-6"
+>
 
             <input
-              type="text"
-              placeholder="Your Name"
-              className="w-full rounded-lg bg-slate-950 p-4 outline-none focus:ring-2 focus:ring-blue-500"
-            />
+  type="text"
+  name="name"
+  placeholder="Your Name"
+  className="w-full rounded-lg bg-slate-950 p-4 outline-none focus:ring-2 focus:ring-blue-500"
+/>
 
             <input
-              type="email"
-              placeholder="Email Address"
-              className="w-full rounded-lg bg-slate-950 p-4 outline-none focus:ring-2 focus:ring-blue-500"
-            />
+  type="email"
+  name="email"
+  placeholder="Email Address"
+  className="w-full rounded-lg bg-slate-950 p-4 outline-none focus:ring-2 focus:ring-blue-500"
+/>
 
             <textarea
-              rows={6}
-              placeholder="Your Message"
-              className="w-full rounded-lg bg-slate-950 p-4 outline-none focus:ring-2 focus:ring-blue-500"
-            />
+  name="message"
+  rows={6}
+  placeholder="Your Message"
+  className="w-full rounded-lg bg-slate-950 p-4 outline-none focus:ring-2 focus:ring-blue-500"
+/>
 
             <button
-              className="rounded-lg bg-blue-600 px-8 py-3 font-semibold text-white hover:bg-blue-700"
-            >
-              Send Message
-            </button>
+  type="submit"
+  className="rounded-lg bg-blue-600 px-8 py-3 font-semibold text-white transition hover:bg-blue-700"
+>
+  Send Message
+</button>
 
           </form>
 

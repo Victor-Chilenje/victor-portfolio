@@ -1,75 +1,182 @@
-# React + TypeScript + Vite
+# 🌐 Victor Chilenje Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website!
 
-Currently, two official plugins are available:
+This portfolio showcases my projects, technical skills, certifications, and professional journey as a Software Developer and Aspiring Cloud Engineer. It was built to serve as my online resume and a central place where recruiters, employers, and collaborators can learn more about me and my work.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+🔗 **Portfolio Website:** *(Add your Vercel URL after deployment)*
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 👨‍💻 About Me
 
-## Expanding the ESLint configuration
+I'm **Victor Chilenje**, a final-year Bachelor of Information Technology student at the University of Lusaka.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+I enjoy building software that solves real-world problems and continuously expanding my knowledge in cloud computing, networking, artificial intelligence, and modern web development.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+My goal is to begin my career as a **Software Developer** while growing into a **Cloud Engineer**.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## ✨ Features
+
+- Responsive modern UI
+- Smooth animations with Framer Motion
+- Interactive Hero section
+- About Me section
+- Skills showcase
+- Project portfolio
+- Resources section (CV & Certificates)
+- Experience timeline
+- Working contact section
+- Social media links
+- Mobile-friendly design
+
+---
+
+## 🛠️ Built With
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Icons
+
+---
+
+## 📂 Featured Projects
+
+### 💰 Loan Tracker
+A mobile application for managing loans and repayments.
+
+**Tech Stack**
+- React Native
+- Supabase
+- Expo
+
+---
+
+### 🌽 Maize Disease Detection
+An AI-powered application that identifies maize diseases using image classification.
+
+**Tech Stack**
+- Python
+- TensorFlow
+- OpenCV
+
+---
+
+### 🏪 Sippi Lounge POS & Inventory System
+A web-based Point of Sale and Inventory Management System developed for Sippi Lounge.
+
+**Tech Stack**
+- PHP
+- MySQL
+- HTML
+- CSS
+- JavaScript
+
+---
+
+### 🛒 X-Tech E-Commerce
+A responsive e-commerce website for showcasing and managing laptop products.
+
+**Tech Stack**
+- PHP
+- MySQL
+- Bootstrap
+
+---
+
+### 🎵 Zed Lyrics
+A lyrics management platform with an admin dashboard for managing artists, songs, and lyrics.
+
+**Tech Stack**
+- PHP
+- MySQL
+- Bootstrap
+
+---
+
+## 📸 Screenshots
+
+Add screenshots of the portfolio here after deployment.
+
+Example:
 
 ```
+public/images/screenshots/home.png
+public/images/screenshots/projects.png
+```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📥 Installation
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Clone the repository
+
+```bash
+git clone https://github.com/Victor-Chilenje/victor-portfolio.git
+```
+
+Navigate into the project
+
+```bash
+cd victor-portfolio
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+---
+
+## 📁 Project Structure
 
 ```
+src/
+│
+├── components/
+├── data/
+├── sections/
+├── types/
+├── assets/
+│
+public/
+│
+├── images/
+├── documents/
+└── favicon.ico
+```
+
+---
+
+## 📬 Contact
+
+📧 Email: **victorchilenje28@gmail.com**
+
+💼 LinkedIn:
+https://www.linkedin.com/in/victor-chilenje-6a0443350
+
+🐙 GitHub:
+https://github.com/Victor-Chilenje
+
+---
+
+
+⭐ If you enjoyed my work or found this portfolio inspiring, feel free to star the repository!
