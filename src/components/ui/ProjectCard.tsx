@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { div } from "framer-motion/m";
 type ProjectCardProps = {
   title: string;
   description: string;

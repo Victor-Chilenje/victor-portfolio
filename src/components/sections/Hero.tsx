@@ -1,6 +1,5 @@
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
-import Button from "../ui/Button";
 
 function Hero() {
   return (
